@@ -4,7 +4,7 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { GlobalContext } from '../Context/GlobalState';
 function Form() {
-  const [transactionType, setTransactionType] = useState('');
+  const [transactionType, setTransactionType] = useState('income');
   const [amount, setAmount] = useState('');
   const [description, setDescription] = useState('');
   const [selectedDate, setSelectedDate] = useState(null);
@@ -35,6 +35,7 @@ function Form() {
     }
 
     addTransaction(newTransaction);
+    alert('Transaction added')
   }
   return (
     <div className='content'>

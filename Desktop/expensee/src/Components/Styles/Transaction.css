@@ -14,6 +14,7 @@
     position: relative;
     padding: 8px;
     margin: 10px 0;
+    width: 100%;
   }
   
   .list li.plus {
@@ -38,8 +39,28 @@
     transform: translate(-100%, -50%);
     opacity: 0;
     transition: opacity 0.3s ease;
+    width: 20px;
   }
   
   .list li:hover .delete-btn {
     opacity: 1;
+  }
+  .transaction-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .amount-delete {
+    display: flex;
+    align-items: center;
+  }
+  
+  .amount-delete span {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 1.5rem;
   }
