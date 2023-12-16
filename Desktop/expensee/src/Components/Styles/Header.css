@@ -1,0 +1,25 @@
+.navbar{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    height: 10vh;
+    background-color: blueviolet;
+    color: white;
+}
+.components{
+    display: flex;
+    flex-direction: row;
+    top:20rem;
+}
+.component{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    font-weight: bold;
+    color: white;
+}

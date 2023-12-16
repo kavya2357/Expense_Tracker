@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import image from './expensee.jpg'
-import "./landingpage.css"
+import image from './Styles/expensee.jpg'
+import "./Styles/landingpage.css"
 import { useNavigate } from 'react-router-dom';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import app from './firebase'

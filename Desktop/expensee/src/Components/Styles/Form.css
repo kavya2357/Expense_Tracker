@@ -1,0 +1,49 @@
+.content{
+    margin:0 4rem 0 5rem;
+    
+}
+.incomeType{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+label{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+select{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+}
+option{
+    width: 100%;
+    font-size: 1.2rem;
+}
+input{
+    border: 1px black solid;
+    width: 100%;
+    margin: 0.8rem 0 0.8rem 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+input::placeholder{
+    color: black;
+}
+.submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button{
+    margin: 0.7rem 0 1rem 0;
+    padding: 1rem;
+    width: 50%;
+    border:none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
